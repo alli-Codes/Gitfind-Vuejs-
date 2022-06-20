@@ -1,13 +1,17 @@
 <template>
-	<div id="container" class="h-screen w-screen"></div>
+	<div id="container" class="h-screen w-screen">
+    <Home />
+  </div>
 </template>
 
 <script>
-
+import Home from './components/Home'
 
 export default {
 	components: {
+    Home,
 	},
+  
 	data: () => {
 		return {
 		};
