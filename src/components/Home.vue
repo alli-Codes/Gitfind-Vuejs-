@@ -8,8 +8,10 @@
     </section>
 
     <section id="user__section">
-      <div id="user__description">
-        <div id="user__image"></div>
+      <div id="user__description" class="flex items-center">
+        <div id="user__image" class=" h-24 w-24 rounded-full">
+          <img src="https://avatars.githubusercontent.com/u/583231?v=4" class=" object-cover rounded-full">
+        </div>
         <div id="user__name">
           <h4>Octocat</h4>
           <p>The Octocat</p>
