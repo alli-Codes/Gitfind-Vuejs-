@@ -1,9 +1,9 @@
 <template>
-  <div id="homepage" class="bg-red-400 flex flex-col grow h-96 px-4">
-    <section id="search__section" class="my-4 flex justify-center bg-green-300">
-      <div id="search__container" class="flex justify-between items-center flex-row-reverse w-full bg-blue-100">
-        <box-icon name="search" />
-        <input class="h-8 w-11/12">
+  <div id="homepage" class="flex flex-col grow h-96 mt-10 px-4">
+    <section id="search__section" class="my-4 flex justify-center ">
+      <div id="search__container" class="flex justify-between items-stretch flex-row-reverse h-11 w-full rounded-lg bg-white">
+        <box-icon name="search" color="gray" class="self-center mx-4" />
+        <input class=" bg-transparent w-11/12 px-8 outline-none appearance-none" placeholder="Find Developers">
       </div>
     </section>
 
@@ -36,3 +36,9 @@
     
   }
 </script>
+
+<style scoped>
+  #search__container{
+    border: 1px solid #00d99c;
+  }
+</style>
