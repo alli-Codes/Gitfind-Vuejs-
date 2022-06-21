@@ -1,14 +1,19 @@
 <template>
 	<div id="container" class="h-screen w-screen">
+    <Header />
     <Home />
   </div>
 </template>
 
 <script>
+import Header from './components/Header'
 import Home from './components/Home'
+ 
 
 export default {
+  name: 'App',
 	components: {
+    Header,
     Home,
 	},
   

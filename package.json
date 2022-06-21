@@ -12,6 +12,7 @@
     "@vue/cli-plugin-babel": "^5.0.4",
     "@vue/cli-plugin-eslint": "^5.0.4",
     "@vue/cli-plugin-router": "^5.0.4",
+    "boxicons": "^2.1.2",
     "core-js": "^3.6.5",
     "feather-icons": "^4.28.0",
     "postcss-flexbugs-fixes": "^5.0.2",
