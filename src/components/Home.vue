@@ -1,7 +1,7 @@
 <template>
   <div id="homepage" class="bg-red-400 flex flex-col grow h-96">
     <section id="search__section" class="my-4 flex justify-center bg-green-300">
-      <div id="search__container" class="flex items-center flex-row-reverse grow w-60 bg-blue-100">
+      <div id="search__container" class="flex items-center flex-row-reverse w-96 bg-blue-100">
         <box-icon name="search" />
         <input class="h-8">
       </div>
