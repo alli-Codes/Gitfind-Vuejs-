@@ -1,5 +1,5 @@
 <template>
-  <div id="homepage" class="">
+  <div id="homepage" class="bg-red-400 grow h-96">
     
   </div>
 </template>
