@@ -1,9 +1,9 @@
 <template>
   <div id="homepage" class="bg-red-400 flex flex-col grow h-96">
     <section id="search__section" class="my-4 flex justify-center bg-green-300">
-      <div id="search__container" class="flex items-center flex-row-reverse w-96 bg-blue-100">
+      <div id="search__container" class="flex justify-between items-center flex-row-reverse w-full bg-blue-100">
         <box-icon name="search" />
-        <input class="h-8">
+        <input class="h-8 w-11/12">
       </div>
     </section>
 
