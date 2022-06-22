@@ -1,5 +1,5 @@
 <template>
-	<div id="container" class="flex flex-col h-screen w-screen">
+	<div id="container" class=" h-screen w-screen">
     <Header />
     <Home />
   </div>
