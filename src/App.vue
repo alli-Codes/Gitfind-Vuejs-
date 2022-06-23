@@ -31,7 +31,8 @@ export default {
 	font-family: 'Lato', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
+/*   overflow-y: auto; */
+/* 	text-align: center; */
 }
 
 
